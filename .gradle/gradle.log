@@ -1,0 +1,40 @@
+#################################################
+         ForgeGradle 1.2-SNAPSHOT-fb514d3        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava警告: [options] 未与 -source 1.6 一起设置引导类路径
+E:\Codes\MC Mod\build\sources\java\wishing_qi\coins_for_loft\coins_for_loft.java:23: 错误: 找不到符号
+                        .setRegistryName(myModId, myBlockId).setCreativeTab(CreativeTabs.BUILDING_BLOCKS));
+                                                                                        ^
+  符号:   变量 BUILDING_BLOCKS
+  位置: 类 CreativeTabs
+E:\Codes\MC Mod\build\sources\java\wishing_qi\coins_for_loft\coins_for_loft.java:22: 错误: 找不到符号
+                .register(((Object) new Myblock(Material.rock)).setUnlocalizedName(myModId + "." + myBlockId)
+                                                               ^
+  符号:   方法 setUnlocalizedName(String)
+  位置: 类 Object
+2 个错误
+1 个警告
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 15.238 secs
